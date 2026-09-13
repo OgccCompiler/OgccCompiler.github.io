@@ -1,2 +1,2 @@
-# OgccCompiler.github.io
+# OgccCompiler
 The GCC compiler website
