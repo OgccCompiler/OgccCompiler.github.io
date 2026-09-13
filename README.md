@@ -1,2 +1,2 @@
 # OgccCompiler
-The GCC compiler website
+The OGCC compiler website for downloading it.
