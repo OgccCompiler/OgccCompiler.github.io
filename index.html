@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OGCC - The Ultimate Compiler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">OGCC Compiler</div>
+        <nav>
+            <a href="https://github.com/OgccCompiler/OgccCompiler">GitHub</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Download OGCC</h1>
+            <p>The GPU powered Compiler</p>
+            
+            <div class="download-card">
+                <div class="selectors">
+                    <div class="input-group">
+                        <label for="os-select">Operating System</label>
+                        <select id="os-select">
+                            <option value="windows">Windows</option>
+                            <option value="macos">macOS</option>
+                            <option value="linux">Linux</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="arch-select">Architecture</label>
+                        <select id="arch-select">
+                            <option value="x64">x86_64 (64-Bit)</option>
+                            <option value="arm64">ARM64 / Apple Silicon</option>
+                            <option value="x86">x86 (32-Bit)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Replace href with your actual download logic -->
+                <a href="#" id="download-btn" class="btn">Download Installer</a>
+                <p id="auto-detect-msg" class="info-text">Analyzing system...</p>
+            </div>
+        </section>
+
+        <!-- Hidden by default -->
+        <section id="install-guide" class="guide-section hidden">
+            <h2>Installation Guide</h2>
+            <p>Thank you for downloading OGCC! Follow these steps to install it on <strong id="guide-os-name">your system</strong>:</p>
+            
+            <div class="instructions">
+                <ul id="guide-steps">
+                    <!-- Filled by JavaScript -->
+                </ul>
+            </div>
+            
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <code id="guide-code">ogcc --version</code>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 OGCC Project. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
